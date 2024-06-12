@@ -1,0 +1,15 @@
+class Solution:
+    def uniqueSubsets(self, s: str) -> List[str]:
+        def backtrack(start, path):
+            result.append(''.join(path))
+            for i in range(start, len(s)):
+                if i > start and s[i] == s[i - 1]:
+                    continue
+                path.append(s[i])
+                backtrack(i + 1, path)
+                path.pop()
+        
+        s = ''.join(sorted(s))
+        result = []
+        backtrack(0, [])
+        return result
