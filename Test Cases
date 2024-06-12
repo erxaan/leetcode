@@ -1,0 +1,5 @@
+Input: "abc"; Expected Output: ["", "a", "ab", "abc", "ac", "b", "bc", "c"]
+Input: "aab"; Expected Output: ["", "a", "aa", "aab", "ab", "b"]
+Input: "xyz"; Expected Output: ["", "x", "xy", "xyz", "xz", "y", "yz", "z"]
+Input: "zzz"; Expected Output: ["", "z", "zz", "zzz"]
+Input: "abcd"; Expected Output: ["", "a", "ab", "abc", "abcd", "abd", "ac", "acd", "ad", "b", "bc", "bcd", "bd", "c", "cd", "d"]
