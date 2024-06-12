@@ -1,0 +1,30 @@
+Difficulty: Medium
+
+Description:
+Given a string s, return all unique subsets of the string. The subsets should be returned in lexicographically sorted order. Each subset should be sorted lexicographically.
+
+Example 1:
+
+Input: s = "abc"
+Output: ["", "a", "ab", "abc", "ac", "b", "bc", "c"]
+
+Example 2:
+
+Input: s = "aab"
+Output: ["", "a", "aa", "aab", "ab", "b"]
+
+Constraints:
+
+The length of s will be in the range [1, 16].
+s will consist of lowercase English letters.
+Follow-up: Can you solve this problem in an iterative manner?
+
+
+Solution Template:
+Python
+
+class Solution:
+    def uniqueSubsets(self, s: str) -> List[str]:
+        # Your code here
+        pass
+
